@@ -15,3 +15,5 @@ export TOKEN=$(kubectl get secret demo-sa-token -n demo-namespace -o jsonpath="{
 curl -k https://localhost:32000 -H "Authorization: Bearer $TOKEN"
 ```
 
+## Workflow
+![workflow](./k8s-rbac-basic-workflow.png)
