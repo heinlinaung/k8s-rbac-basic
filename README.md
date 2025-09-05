@@ -16,4 +16,4 @@ curl -k https://localhost:32000 -H "Authorization: Bearer $TOKEN"
 ```
 
 ## Workflow
-![workflow](./k8s-rbac-basic-workflow.png)
+![workflow](./k8s-rbac-basic.png)
