@@ -3,6 +3,8 @@
 ## Commands
 ``` /bin/bash
 kubectl apply -f .
+kubectl set context --current --namespace=demo-namespace
+kubectl get all -n demo-namespace
 
 ## Test access without token
 curl -k https://localhost:32000
